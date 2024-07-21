@@ -89,9 +89,13 @@ We can simulate the Four regulatory factors network with DelaySSA.
 | $d_S$:Degradation rate of SOX2 | 0.4 |
 
 
-![intro](figs/intro.png)
+![intro](figs/intro.svg)
 
+The results of setting as to 0.1 0.3 0.8 are shown in the following figure.
 
+![network_as0.1](figs/network_as0.1.svg)
+![network_as0.3](figs/network_as0.3.svg)
+![network_as0.8](figs/network_as0.8.svg)
 
 [1]. Bergen, V., Lange, M., Peidli, S., Wolf, F. A., & Theis, F. J. (2020). Generalizing RNA velocity to transient cell states through dynamical modeling. Nature biotechnology, 38(12), 1408-1414.
 
