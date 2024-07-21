@@ -4,40 +4,40 @@
 RNA velocity is an emerging technique used to analyze single-cell RNA sequencing (scRNA-seq) data. It provides insights into gene expression dynamics and cell state transitions by estimating the instantaneous rate of change of mRNA within individual cells.
 
 The concept of RNA velocity relies on two primary components: newly synthesized, unspliced mRNA ($U$) and mature, spliced mRNA ($S$). The reaction can be represented as
-$$
+ ```math
 \begin{aligned}
 &\emptyset \xrightarrow{\alpha(t)} U, \\
 &U \xrightarrow{\beta} S,\\
 &S \xrightarrow{\gamma} \emptyset.
 \end{aligned}
-$$
+ ```
 According to [1-2], we can model transcriptional dynamics using the basic reaction kinetics described by
-$$
+ ```math
 \frac{du(t)}{dt} = \alpha(t) - \beta u(t),
-$$
+ ```
 
-$$
+ ```math
 \frac{ds(t)}{dt} = \beta u(t) - \gamma s(t),
-$$
+ ```
 There exits an analytical solution for the equation
-$$
+ ```math
 u(t) = u_0 e^{-\beta \tau} + \frac{\alpha(t)}{\beta} \left(1 - e^{-\beta \tau} \right),
-$$
+ ```
 
-$$
+ ```math
 s(t) = s_0 e^{-\gamma \tau} + \frac{\alpha(t)}{\gamma} \left(1 - e^{-\gamma \tau} \right) + \frac{\alpha(t) - \beta u_0}{\gamma - \beta} \left( e^{-\gamma \tau} - e^{-\beta \tau} \right), \tau = t - t_0^{(k)},
-$$
+ ```
 
 When $\beta=1$, it reduces to
-$$
+ ```math
 u(t) = \alpha (1 - e^{-t}) + u_0 e^{-t}\\
 s(t) = \frac{e^{-t(1+\gamma)} \left[ e^{t(1+\gamma)} \alpha (\gamma-1) + e^{t\gamma} \gamma (u_0 - \alpha) \gamma + e^{t} (\alpha - \gamma (s_0 + u_0 - s_0 \gamma)) \right]}{\gamma (\gamma - 1)}
-$$
+ ```
 We can also simulate the velocity model with DelaySSA. Set $\alpha=1$, $\beta=1$, $\gamma=0.2$, $tmax=30s$. Repeat $2e10^5$ times. After reaching steady state, change $\alpha$ to 0.
 
 
 Then we consider a network called Four regulatory factors network[3]. The four regulatory factors are $FOXA2(F)$, $NKX2-1(N)$, $TP63(T)$ and $SOX2(S)$. During the reaction, their values affect each other's reaction rate. The reaction can be represented as
-$$
+ ```math
 \begin{aligned}
 &\emptyset \xrightarrow{\frac{\alpha_F}{1 + a_1 T^2 + a_2 S^2}} F,\\
 &\emptyset \xrightarrow{\frac{\alpha_N}{1 + F^2 + a_3 F^2 + a_4 S^2}} N,\\
@@ -48,23 +48,23 @@ $$
 &T\xrightarrow{d_T}\emptyset\\
 &S\xrightarrow{d_S}\emptyset
 \end{aligned}
-$$
+ ```
 we can model transcriptional dynamics using the basic reaction kinetics described by
-$$
+ ```math
 \frac{dF}{dt} = \frac{\alpha_F}{1 + a_1 T^2 + a_2 S^2} - d_F F
-$$
+ ```
 
-$$
+ ```math
 \frac{dN}{dt}  = \frac{\alpha_N}{1 + F^2 + a_3 F^2 + a_4 S^2} - d_N N
-$$
+ ```
 
-$$
+```math
 \frac{dT}{dt}  = \frac{\alpha_T}{1 + S^2 + a_5 S^2 + a_6 N^2} - d_T T
-$$
+ ```
 
-$$
+ ```math
 \frac{dS}{dt}  = \beta_S \frac{S^2}{a_7^2 + S^2} + \frac{\alpha_S}{1 + a_8 F^2 + a_9 N^2} - d_S S
-$$
+ ```
 We can simulate the Four regulatory factors network with DelaySSA. 
 
 |Parameters|Values|
@@ -89,8 +89,7 @@ We can simulate the Four regulatory factors network with DelaySSA.
 | $d_S$:Degradation rate of SOX2 | 0.4 |
 
 
-![intro](figs/intro.pdf)
-
+![intro](figs/intro.png)
 
 
 
