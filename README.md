@@ -35,6 +35,8 @@ s(t) = \frac{e^{-t(1+\gamma)} \left[ e^{t(1+\gamma)} \alpha (\gamma-1) + e^{t\ga
  ```
 We can also simulate the velocity model with DelaySSA. Set $\alpha=1$, $\beta=1$, $\gamma=0.2$, $tmax=30s$. Repeat $2e10^5$ times. After reaching steady state, change $\alpha$ to 0.
 
+![velocity](figs/velocity.svg)
+
 
 Then we consider a network called Four regulatory factors network[3]. The four regulatory factors are $FOXA2(F)$, $NKX2-1(N)$, $TP63(T)$ and $SOX2(S)$. During the reaction, their values affect each other's reaction rate. The reaction can be represented as
  ```math
@@ -88,8 +90,7 @@ We can simulate the Four regulatory factors network with DelaySSA.
 | $d_T$:Degradation rate of TP63  | 1 |
 | $d_S$:Degradation rate of SOX2 | 0.4 |
 
-
-![intro](figs/intro.svg)
+![network](figs/network.svg)
 
 The results of setting as to 0.1 0.3 0.8 are shown in the following figure.
 
