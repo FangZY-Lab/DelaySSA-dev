@@ -11,7 +11,7 @@
       <stop offset="0" stop-color="#76bdff"/>
       <stop offset="1" stop-color="#5070ff"/>
     </linearGradient>
-    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(135.56103 771.2754) rotate(90) scale(9.666295)"/>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(133.94515 770.2) rotate(90) scale(10.941276)"/>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="black">
       <g>
         <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
@@ -91,7 +91,7 @@
         </g>
       </g>
       <g id="Graphic_2132">
-        <ellipse cx="135.56103" cy="776.1085" rx="7.36104153282317" ry="4.83315507303599" fill="url(#Obj_Gradient)"/>
+        <ellipse cx="133.94515" cy="775.67065" rx="8.59173697471294" ry="5.47064653158782" fill="url(#Obj_Gradient)"/>
       </g>
       <g id="Line_117"/>
       <g id="Line_37"/>
@@ -3098,6 +3098,11 @@
             </g>
           </g>
         </g>
+      </g>
+      <g id="Graphic_2133">
+        <text transform="translate(127.22515 771.4492)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="6" fill="black" x="0" y="6">Pol II</tspan>
+        </text>
       </g>
     </g>
   </g>
