@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 4 418 276" width="418" height="276">
+  <defs/>
+  <g id="Canvas_1" stroke-opacity="1" fill-opacity="1" fill="none" stroke-dasharray="none" stroke="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="0" y="4" width="418" height="276"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Line_2">
+        <path d="M 52.22 242.91 L 57.78 80.18 L 63.34 39.07 L 68.91 23.81 L 74.47 20.88 L 80.04 17.69 L 85.6 18.63 L 91.16 16.79 L 96.73 18.05 L 102.29 19.09 L 107.86 19.9 L 113.42 20.52 L 118.98 19.33 L 124.55 17.93 L 130.11 19.48 L 135.68 19.16 L 141.24 19.73 L 146.8 19.95 L 152.37 20.94 L 157.93 19.59 L 163.5 20.97 L 169.06 20.89 L 174.62 21.47 L 180.19 21.16 L 185.75 21.69 L 191.31 21.91 L 196.88 21.33 L 202.44 21.64 L 208.01 20.41 L 213.57 20.28 L 219.13 21.1 L 224.7 19.88 L 230.26 19.33 L 235.83 20.54 L 241.39 19.88 L 246.95 21.65 L 252.52 22.44 L 258.08 22.85 L 263.65 23.37 L 269.21 22.67 L 274.77 23.03 L 280.34 23.43 L 285.9 22.39 L 291.47 21.92 L 297.03 21.95 L 302.59 20.42 L 308.16 22.02 L 313.72 22.36 L 319.29 22.82 L 324.85 22.76 L 330.41 21.03" stroke="#5b86be" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_3">
+        <path d="M 52.22 242.91 L 57.78 168.98 L 63.34 140.57 L 68.91 130.06 L 74.47 125 L 80.04 123.36 L 85.6 123.67 L 91.16 126.15 L 96.73 125.64 L 102.29 125.52 L 107.86 125.5 L 113.42 125.75 L 118.98 125.69 L 124.55 124.81 L 130.11 125.51 L 135.68 125.11 L 141.24 126.36 L 146.8 125.9 L 152.37 125.77 L 157.93 126.68 L 163.5 126.79 L 169.06 126.34 L 174.62 126.69 L 180.19 125.86 L 185.75 125.53 L 191.31 125.31 L 196.88 126.39 L 202.44 127.11 L 208.01 125.88 L 213.57 126.56 L 219.13 125.81 L 224.7 126.99 L 230.26 126.25 L 235.83 125.57 L 241.39 125.87 L 246.95 125.93 L 252.52 124.43 L 258.08 126.78 L 263.65 124.91 L 269.21 127.19 L 274.77 127.98 L 280.34 126.21 L 285.9 126.95 L 291.47 127.28 L 297.03 127.45 L 302.59 127.86 L 308.16 126.86 L 313.72 126.91 L 319.29 126.04 L 324.85 126.68 L 330.41 126.98" stroke="#75b65a" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_4">
+        <path d="M 52.22 242.91 L 57.78 188.64 L 63.34 178.6 L 68.91 178.14 L 74.47 179.17 L 80.04 180.51 L 85.6 180.44 L 91.16 179.98 L 96.73 179.97 L 102.29 179.72 L 107.86 180.1 L 113.42 179.86 L 118.98 179.22 L 124.55 180.46 L 130.11 179.68 L 135.68 180.2 L 141.24 179.69 L 146.8 179.64 L 152.37 179.42 L 157.93 179.61 L 163.5 178.98 L 169.06 179.11 L 174.62 180.6 L 180.19 180.41 L 185.75 179.92 L 191.31 179.93 L 196.88 179.97 L 202.44 179.49 L 208.01 180.32 L 213.57 179.22 L 219.13 179.07 L 224.7 179.06 L 230.26 179.7 L 235.83 178.89 L 241.39 179.68 L 246.95 177.93 L 252.52 179.92 L 258.08 179.45 L 263.65 178.54 L 269.21 177.86 L 274.77 178.63 L 280.34 178.28 L 285.9 177.94 L 291.47 179.26 L 297.03 177.78 L 302.59 178.62 L 308.16 178.67 L 313.72 179.57 L 319.29 179.35 L 324.85 178.67 L 330.41 179.25" stroke="#9b62af" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_5">
+        <path d="M 52.22 242.91 L 57.78 237.38 L 63.34 234.84 L 68.91 233.35 L 74.47 231.84 L 80.04 230.98 L 85.6 229.73 L 91.16 228.33 L 96.73 227.01 L 102.29 226.87 L 107.86 226.02 L 113.42 225.64 L 118.98 225.05 L 124.55 224.28 L 130.11 224.41 L 135.68 224.28 L 141.24 224.1 L 146.8 224.08 L 152.37 223.69 L 157.93 223.72 L 163.5 223.74 L 169.06 224.15 L 174.62 224.05 L 180.19 223.92 L 185.75 223.89 L 191.31 223.97 L 196.88 223.85 L 202.44 223.76 L 208.01 223.56 L 213.57 223.54 L 219.13 223.44 L 224.7 223.37 L 230.26 222.8 L 235.83 222.64 L 241.39 222.82 L 246.95 222.99 L 252.52 223.03 L 258.08 222.83 L 263.65 222.5 L 269.21 222.55 L 274.77 221.94 L 280.34 221.76 L 285.9 221.64 L 291.47 221.78 L 297.03 221.29 L 302.59 221.25 L 308.16 221.38 L 313.72 221.71 L 319.29 221.75 L 324.85 222.15 L 330.41 222.11" stroke="#d2412c" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_6">
+        <line x1="38.31" y1="254.21" x2="38.31" y2="5.48" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <text transform="translate(19.48 234.5)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">0.0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <text transform="translate(19.48 180.8)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">0.5</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <text transform="translate(19.48 127.09)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">1.0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <text transform="translate(19.48 73.39)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">1.5</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <text transform="translate(19.48 19.69)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">2.0</tspan>
+        </text>
+      </g>
+      <g id="Line_12">
+        <line x1="38.31" y1="254.21" x2="344.32" y2="254.21" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_13">
+        <text transform="translate(49.44 254.32)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <text transform="translate(102.3 254.32)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">10</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <text transform="translate(157.94 254.32)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">20</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <text transform="translate(213.57 254.32)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">30</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <text transform="translate(269.21 254.32)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">40</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18">
+        <text transform="translate(324.85 254.32)" fill="#4d4d4d">
+          <tspan font-family="Helvetica" font-size="10" fill="#4d4d4d" x="0" y="10">50</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <text transform="translate(187.65 265.88)" fill="black">
+          <tspan font-family="Helvetica" font-weight="bold" font-size="12" fill="black" x="0" y="11">T</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <text transform="translate(.5513672 171.6736) rotate(-90)" fill="black">
+          <tspan font-family="Helvetica" font-weight="bold" font-size="12" fill="black" x="0" y="11">Mean Value</tspan>
+        </text>
+      </g>
+      <g id="Line_21">
+        <line x1="362.49" y1="103.93" x2="376.31" y2="103.93" stroke="#5b86be" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_22">
+        <line x1="362.49" y1="121.21" x2="376.31" y2="121.21" stroke="#75b65a" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_23">
+        <line x1="362.49" y1="138.49" x2="376.31" y2="138.49" stroke="#9b62af" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_24">
+        <line x1="362.49" y1="155.77" x2="376.31" y2="155.77" stroke="#d2412c" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_25">
+        <text transform="translate(383.52 95.52)" fill="black">
+          <tspan font-family="Helvetica" font-size="10" fill="black" x="0" y="10">FOXA2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <text transform="translate(382.4502 112.8)" fill="black">
+          <tspan font-family="Helvetica" font-size="10" fill="black" x="0" y="10">NKX2-1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <text transform="translate(383.52 130.08)" fill="black">
+          <tspan font-family="Helvetica" font-size="10" fill="black" x="0" y="10">p63</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <text transform="translate(383.52 147.36)" fill="black">
+          <tspan font-family="Helvetica" font-size="10" fill="black" x="0" y="10">SOX2</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
