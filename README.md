@@ -39,19 +39,36 @@ We can also simulate the velocity model with DelaySSA. Set $\alpha=1$, $\beta=1$
 
 
 Then we consider a network called Four regulatory factors network[3]. The four regulatory factors are $FOXA2(F)$, $NKX2-1(N)$, $p63(P)$ and $SOX2(S)$. During the reaction, their values affect each other's reaction rate. The reaction can be represented as
- ```math
-\begin{aligned}
-&\emptyset \xrightarrow{\frac{\alpha_F}{1 + a_1 P^2 + a_2 S^2}} F,\\
-&\emptyset \xrightarrow{\alpha_N \frac{1 + F^2}{1 + a_3 F^2 + a_4 S^2}} N,\\
-&\emptyset \xrightarrow{\alpha_P \frac{1 + S^2}{ 1 + a_5 S^2 + a_6 N^2}} P,\\
-&\emptyset \xrightarrow{\beta_S \frac{S^2}{a_7^2 + S^2} + \frac{\alpha_S}{1 + a_8 F^2 + a_9 N^2}} S,\\
-&F\xrightarrow{d_F}\emptyset\\
-&N\xrightarrow{d_N}\emptyset\\
-&P\xrightarrow{d_P}\emptyset\\
-&S\xrightarrow{d_S}\emptyset
-\end{aligned}
+
+```math
+\emptyset \xrightarrow{\frac{\alpha_F}{1 + a_1 P^2 + a_2 S^2}} F,
+```
+
+```math
+\emptyset \xrightarrow{\alpha_N \frac{1 + F^2}{1 + a_3 F^2 + a_4 S^2}} N,
+```
+
+```math
+\emptyset \xrightarrow{\alpha_P \frac{1 + S^2}{ 1 + a_5 S^2 + a_6 N^2}} P,
+```
+
+```math
+\emptyset \xrightarrow{\beta_S \frac{S^2}{a_7^2 + S^2} + \frac{\alpha_S}{1 + a_8 F^2 + a_9 N^2}} S,
+```
+```math
+F\xrightarrow{d_F}\emptyset
+```
+```math
+N\xrightarrow{d_N}\emptyset
+```
+
+```math
+P\xrightarrow{d_P}\emptyset
+```
+```math
+S\xrightarrow{d_S}\emptyset
  ```
-we can model transcriptional dynamics using the basic reaction kinetics described by
+We can model transcriptional dynamics using the basic reaction kinetics described by
  ```math
 \frac{dF}{dt} = \frac{\alpha_F}{1 + a_1 P^2 + a_2 S^2} - d_F F
  ```
@@ -92,7 +109,7 @@ We can simulate the Four regulatory factors network with DelaySSA.
 
 ![network](figs/network.svg)
 
-The results of setting $\alpha_S$ to 0.1 0.3 0.8 are shown in the following figures with the `sample_size` = $2e10^5$.
+Besides, the results of setting $\alpha_S$ to 0.1 0.3 0.8 are shown in the following figures with the `sample_size` = $2e10^5$.
 
 ![network_as0.1](figs/network_as0.1.svg)
 
