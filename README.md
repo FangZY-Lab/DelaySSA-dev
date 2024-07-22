@@ -38,7 +38,7 @@ We can also simulate the velocity model with DelaySSA. Set $\alpha=1$, $\beta=1$
 ![velocity](figs/velocity.svg)
 
 
-Then we consider a network called Four regulatory factors network[3]. The four regulatory factors are $FOXA2(F)$, $NKX2-1(N)$, $p63(P)$ and $SOX2(S)$. During the reaction, their values affect each other's reaction rate. The reaction can be represented as
+Then we consider a network called Four regulatory factors network[3]. The four regulatory factors are $FOXA2(F)$, $NKX2\text{-}1(N)$, $p63(P)$ and $SOX2(S)$. During the reaction, their values affect each other's reaction rate. The reaction can be represented as
 
 ```math
 \emptyset \xrightarrow{\frac{\alpha_F}{1 + a_1 P^2 + a_2 S^2}} F,
