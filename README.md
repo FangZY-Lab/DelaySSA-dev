@@ -92,13 +92,13 @@ We can simulate the Four regulatory factors network with DelaySSA.
 
 ![network](figs/network.svg)
 
-The results of setting as to 0.1 0.3 0.8 are shown in the following figure.
+The results of setting $\alpha_S$ to 0.1 0.3 0.8 are shown in the following figures with the `sample_size`=$1e10^5$.
 
-![network_as0.1](figs/network_as0.1.svg)
+![network_as0.1](figs/network_as0.1_10000.svg)
 
-![network_as0.3](figs/network_as0.3.svg)
+![network_as0.3](figs/network_as0.3_10000.svg)
 
-![network_as0.8](figs/network_as0.8.svg)
+![network_as0.8](figs/network_as0.8_10000.svg)
 
 [1]. Bergen, V., Lange, M., Peidli, S., Wolf, F. A., & Theis, F. J. (2020). Generalizing RNA velocity to transient cell states through dynamical modeling. Nature biotechnology, 38(12), 1408-1414.
 
