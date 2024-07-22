@@ -92,7 +92,7 @@ We can simulate the Four regulatory factors network with DelaySSA.
 
 ![network](figs/network.svg)
 
-The results of setting $\alpha_S$ to 0.1 0.3 0.8 are shown in the following figures with the `sample_size`=$1e10^5$.
+The results of setting $\alpha_S$ to 0.1 0.3 0.8 are shown in the following figures with the `sample_size` = $1e10^5$.
 
 ![network_as0.1](figs/network_as0.1_10000.svg)
 
