@@ -95,13 +95,13 @@ We can simulate the Four regulatory factors network with DelaySSA.
 | $\beta_S$:Self-activation rate | 1.3 |
 | $\alpha_1$:Repression strength of FOX2 by p63  | 1 |
 | $\alpha_2$:Repression strength of FOX2 by SOX2  | 1 |
-| $\alpha_3$:Activation strength of NKX2-1 by FOXA2 | 0.8 |
+| $\alpha_3$:Activation strength of NKX2-1 by FOXA2 | 0.5 |
 | $\alpha_4$:Repression strength of NKX2-1 by SOX2  | 2 |
-| $\alpha_5$:Activation strength of p63 by SOX2 | 0.8 |
+| $\alpha_5$:Activation strength of p63 by SOX2 | 0.2 |
 | $\alpha_6$:Repression strength of p63 by NKX2-1  | 1 |
 | $\alpha_7$:Threshold constant for the self-activation | 2 |
-| $\alpha_8$:Repression strength of p63 by FOX2  | 1 |
-| $\alpha_9$:Repression strength of p63 by NKX2-1 | 1 |
+| $\alpha_8$:Repression strength of p63 by FOX2  | 1.5 |
+| $\alpha_9$:Repression strength of p63 by NKX2-1 | 1.5 |
 | $d_F$:Degradation rate of FOXA2  | 1 |
 | $d_N$:Degradation rate of NKX2-1 | 1 |
 | $d_P$:Degradation rate of p63  | 1 |
@@ -109,13 +109,13 @@ We can simulate the Four regulatory factors network with DelaySSA.
 
 ![network](figs/network.svg)
 
-Besides, the results of setting $\alpha_S$ to 0.1 0.3 0.8 are shown in the following figures with the `sample_size` = $2e10^5$.
+Besides, the results of setting $\alpha_S$ to 0.15 0.5 1 are shown in the following figures with the `sample_size` = $2e10^5$.
 
-![network_as0.1](figs/network_as0.1.svg)
+![network_as0.15](figs/network_change_as015.svg)
 
-![network_as0.3](figs/network_as0.3.svg)
+![network_as0.5](figs/network_change_as05.svg)
 
-![network_as0.8](figs/network_as0.8.svg)
+![network_as1](figs/network_change_as1.svg)
 
 [1]. Bergen, V., Lange, M., Peidli, S., Wolf, F. A., & Theis, F. J. (2020). Generalizing RNA velocity to transient cell states through dynamical modeling. Nature biotechnology, 38(12), 1408-1414.
 
