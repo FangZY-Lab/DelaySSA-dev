@@ -33,7 +33,7 @@ When $\beta=1$, it reduces to
 u(t) = \alpha (1 - e^{-t}) + u_0 e^{-t}\\
 s(t) = \frac{e^{-t(1+\gamma)} \left[ e^{t(1+\gamma)} \alpha (\gamma-1) + e^{t\gamma} \gamma (u_0 - \alpha) \gamma + e^{t} (\alpha - \gamma (s_0 + u_0 - s_0 \gamma)) \right]}{\gamma (\gamma - 1)}
  ```
-We can also simulate the velocity model with DelaySSA. Set $\alpha=1$, $\beta=1$, $\gamma=0.2$, $tmax=30s$. Repeat $2e10^5$ times. After reaching steady state, change $\alpha$ to 0.
+We can also simulate the velocity model with DelaySSA. Set $\alpha=1$, $\beta=1$, $\gamma=0.2$, $tmax=30s$. Repeat $2\times10^5$ times. After reaching steady state, change $\alpha$ to 0.
 
 ![velocity](figs/velocity.svg)
 
@@ -109,7 +109,7 @@ We can simulate the Four regulatory factors network with DelaySSA.
 
 ![network](figs/network.svg)
 
-Besides, the results of setting $\alpha_S$ to 0.15 0.5 1 are shown in the following figures with the `sample_size` = $2e10^5$.
+Besides, the results of setting $\alpha_S$ to 0.15 0.5 1 are shown in the following figures with the `sample_size` = $2\times10^5$.
 
 ![network_as0.15](figs/network_change_as015.svg)
 
